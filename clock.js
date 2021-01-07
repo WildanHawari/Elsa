@@ -9,10 +9,10 @@
         let clock = jam+':'+menit+':'+detik;
         document.getElementById("clock").innerHTML = clock;
         
-        if(detik == 0) {
+        if(jam == 0 && menit == 0 && detik == 0) {
             let syg = 'Hai Eja, Aku sayang kamu :3';
             document.getElementById("note").innerHTML = syg;
-        } else if(detik == 10) {
+        } else if(jam == 0 && menit == 0 && detik == 11) {
             let tdr = 'Sekarang kamu tidur yak, udah malem. Good Night :3';
             document.getElementById("note").innerHTML = tdr;
         }
